@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Code the Web by Viewing</title>
+    <title>Code the Web by Viewing - Stats</title>
 
     <!--Main Linking Code-->
 
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./css/animate.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/milestone.css">
+    <link rel="stylesheet" href="../../../css/animate.css">
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/bootstrap.js"></script>
+    <script src="../../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
 
   </head>
 
@@ -20,13 +21,12 @@
 
     <script>
       $(document).ready(function(){
-        //TODO: Add Continue From Last Time Button Functionality. This uses web cookies and will tell it to the end user.
       });
     </script>
 
     <!--Header Visual Code-->
 
-    <nav class="navbar navbar-default" style="margin-bottom: 10px;">
+    <nav class="navbar navbar-default" id="Navbar" style="margin-bottom: 10px;">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -39,11 +39,11 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a>Home Page<span class="sr-only">(current)</span></a></li>
+            <li><a href="../../../index.html">Home Page</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HTML <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="./Navigation Pages/HTML/HTML_Main.html">Main HTML Page</a></li>
+                <li><a href="../../../Navigation Pages/HTML/HTML_Main.html">Main HTML Page</a></li>
                 <li><a href="#">Basic Syntax</a></li>
                 <li><a href="#">Basic HTML Elements</a></li>
                 <li><a href="#">CSS in HTML</a></li>
@@ -64,10 +64,10 @@
                 <li><a href="#">Basic JS Syntax</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other Info <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="./Other Info/WebsiteInfo.html">Website Info</a></li>
+                <li><a href="../../../Other Info/WebsiteInfo.html">Website Info <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">About Me</a></li>
               </ul>
             </li>
@@ -80,44 +80,12 @@
       </div>
     </nav>
 
-    <!--Page Progress Info / Progress Bar-->
-
-    <div class="alert alert-info text-center alert-dismissible" role="alert" style="margin-left:10%; margin-right:10%;">Check below for the progress of the Website out of 100% as of April 4<sup>th</sup>, 2018 or <a href="./Other Info/WebsiteInfo.html">Click Here</a> for more stats.
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <div class="progress center-block" style="margin-left:10%; margin-right:10%; margin-top: 20px;">
-        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
-           5%
-        </div>
-      </div>
-    </div>
-
     <!--Main Visual Code-->
 
     <div class="container" id="Main">
       <h1 class="text-primary text-center">Code the Web by Viewing</h1>
-      <h4 class="h4 text-center">Here we offer HTML, CSS, and JS but the website looks more complex the more you learn.</h4>
-      <div id="Lessons">
-        <ul>
-          <li><a href="./Navigation Pages/HTML/HTML_Main.html"><i class="fab fa-html5"></i> HTML</a>
-            <ul>
-              <li>Basic Syntax</li>
-              <li>Basic HTML Elements</li>
-              <li>CSS in HTML</li>
-              <li>JS / JQuery in HTML</li>
-            </ul>
-          </li>
-          <li><a href="#"><i class="fab fa-css3-alt"></i> CSS</a>
-            <ul>
-              <li>CSS Syntax</li>
-            </ul>
-          </li>
-          <li><a href="#"><i class="fab fa-js"></i> JavaScript</a>
-            <ul>
-              <li>JS Sytax</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+      <h4 class="h4 text-center">HTML / Basic Syntax / Paragraph and Text in HTML</h4>
+
     </div>
 
   </body>
